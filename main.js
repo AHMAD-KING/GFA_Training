@@ -428,5 +428,12 @@
 // Promise.resolve().then( () => console.log("this is promise.resolve 1"));
 // process.nextTick( () => console.log("this is process.nextTick 1"));
 
+// let fs = require("node:fs");
 
-
+// fs.stat("./text.txt", (err,stat) => {
+//     if(err){
+//         console.log(err);
+//     }else {
+//         console.log(stat);
+//     }
+// });

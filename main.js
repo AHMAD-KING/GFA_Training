@@ -437,3 +437,44 @@
 //         console.log(stat);
 //     }
 // });
+
+// let path = require("node:path");
+// let filePath ="./text.txt";
+// let direname = path.dirname(filePath) ;
+// let extentionname = path.extname(filePath); 
+// let filename = path.basename(filePath, extentionname ); 
+// console.log(direname,filename,extentionname);
+// console.log(path.resolve("text2.txt"));
+
+// let fs = require("node:fs/promises");
+
+// async function example(){
+//     let fileHandler ; 
+//     try { 
+//         fileHandler = await fs.open("./text.txt",'r');
+//         console.log(await fileHandler.readFile({encoding:"utf-8"}));
+//     }finally { 
+//         if(fileHandler)await fileHandler.close();
+//     }
+// }
+// example();
+
+// let fs = require("node:fs/promises");
+
+// let content = "hi this is just some extra content";
+
+// fs.writeFile("./text2.txt", content,err => {
+//     if(err)console.log(err);
+// });
+
+
+// let readline = require("readline").createInterface( {
+//     input: process.stdin, 
+//     output: process.stdout
+// });
+
+// readline.question("what is your name?" , name => {
+//     console.log(`welcome ${name} to this program`);
+//     readline.close();
+// })
+

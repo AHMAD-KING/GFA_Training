@@ -1,5 +1,15 @@
 {
   "devDependencies": {
     "typescript": "^5.1.6"
-  }
+  },
+  "name": "visualcode",
+  "description": "My training in GFA (Ghadeer Future acceleration)  in backend development from July 2023 to September 2023",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
